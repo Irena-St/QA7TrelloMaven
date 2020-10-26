@@ -56,6 +56,15 @@ public class CurrentBoardTests extends TestBase {
                 "The quantity of lists is not equal to expected quantity");
 
     }
+    @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderRandomTitle")
+    public void createListPositive2(String name)  {
+        int listsBeforeAdding = qaHaifa7CurrentBoard.getListsQuantity();
+        qaHaifa7CurrentBoard.createNewList(name);
+        int listsAfterAdding = qaHaifa7CurrentBoard.getListsQuantity();
+        Assert.assertEquals(listsBeforeAdding +1, listsAfterAdding,
+                "The quantity of lists is not equal to expected quantity");
+
+    }
 
     @Test
     public void putAnyListToArchive()  {

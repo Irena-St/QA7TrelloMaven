@@ -5,11 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.stqa.selenium.util.LogLog4j;
 
 import java.util.List;
 
 public class PageBase {
     WebDriver driver;
+    public static LogLog4j log4j = new LogLog4j();
 
     public PageBase(WebDriver driver){
         this.driver = driver;

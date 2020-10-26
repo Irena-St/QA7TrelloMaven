@@ -56,19 +56,26 @@ public class LoginPageHelper extends PageBase {
     }
 
     public LoginPageHelper pressLoginButton() {
+        log4j.info("LoginPageHelper: pressLoginButton()");
+        log4j.info("Wait 5 sec");
         waitUntilElementIsClickable(loginButton, 10);
+        log4j.info("Click on the login button");
         loginButton.click();
         return this;
     }
 
     public LoginPageHelper enterNotAtlassianPassword(String password) {
         // WebElement passwordField = driver.findElement(By.id("password"));
+        log4j.info("LoginPageHelper: enterNotAtlassianPassword(password="+password+")");
+        log4j.info("Enter password value to the password field");
         editField(passwordField, password);
         return this;
     }
 
 
     public LoginPageHelper enterNotAtlassianLogin(String login) {
+        log4j.info("LoginPageHelper: enterNotAtlassianLogin(login="+login+")");
+        log4j.info("Enter login value to the login field");
         editField(loginField, login);
         return this;
     }
@@ -92,6 +99,7 @@ public class LoginPageHelper extends PageBase {
     }
 
     public LoginPageHelper loginNotAtlassian(String login, String password) {
+        log4j.info("LoginPageHelper: loginNotAtlassian(login=" +login+ ", password="+password+")");
         enterNotAtlassianLogin(login);
         enterNotAtlassianPassword(password);
         pressLoginButton();

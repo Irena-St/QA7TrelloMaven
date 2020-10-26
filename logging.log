@@ -1,0 +1,208 @@
+2020-10-22 20:23:56 INFO  LogLog4j:15 - 
+2020-10-22 20:23:56 INFO  LogLog4j:16 - 
+2020-10-22 20:23:56 INFO  LogLog4j:17 - *******************************************************************
+2020-10-22 20:23:56 INFO  LogLog4j:18 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-22 20:23:56 INFO  LogLog4j:19 - *******************************************************************
+2020-10-22 20:23:58 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-22 20:30:48 INFO  LogLog4j:15 - 
+2020-10-22 20:30:48 INFO  LogLog4j:16 - 
+2020-10-22 20:30:48 INFO  LogLog4j:17 - *******************************************************************
+2020-10-22 20:30:48 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest
+2020-10-22 20:30:48 INFO  LogLog4j:19 - *******************************************************************
+2020-10-22 20:30:48 INFO  LogLog4j:41 - Parameter login - 
+2020-10-22 20:30:48 INFO  LogLog4j:41 - Parameter password - hdgdgdg
+2020-10-22 20:30:48 INFO  LogLog4j:41 - Parameter errorMessage - Missing email
+2020-10-22 20:30:49 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-22 20:31:29 INFO  LogLog4j:15 - 
+2020-10-22 20:31:29 INFO  LogLog4j:16 - 
+2020-10-22 20:31:29 INFO  LogLog4j:17 - *******************************************************************
+2020-10-22 20:31:29 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest
+2020-10-22 20:31:29 INFO  LogLog4j:19 - *******************************************************************
+2020-10-22 20:31:29 INFO  LogLog4j:41 - Parameter login - gddfdffd
+2020-10-22 20:31:29 INFO  LogLog4j:41 - Parameter password - 123456
+2020-10-22 20:31:29 INFO  LogLog4j:41 - Parameter errorMessage - There isn't an account for this username
+2020-10-22 20:31:41 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-22 20:32:25 INFO  LogLog4j:15 - 
+2020-10-22 20:32:25 INFO  LogLog4j:16 - 
+2020-10-22 20:32:25 INFO  LogLog4j:17 - *******************************************************************
+2020-10-22 20:32:25 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest
+2020-10-22 20:32:25 INFO  LogLog4j:19 - *******************************************************************
+2020-10-22 20:32:25 INFO  LogLog4j:41 - Parameter login - gdfdd@gsfsf
+2020-10-22 20:32:25 INFO  LogLog4j:41 - Parameter password - 456455
+2020-10-22 20:32:25 INFO  LogLog4j:41 - Parameter errorMessage - There isn't an account for this email
+2020-10-22 20:32:29 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:22:54 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:22:57 INFO  LogLog4j:15 - 
+2020-10-26 15:22:57 INFO  LogLog4j:16 - 
+2020-10-26 15:22:57 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:22:57 INFO  LogLog4j:18 -                    Test Case: loginNegativeLoginEmpty()
+2020-10-26 15:22:57 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:22:57 INFO  LogLog4j:41 - LoginPageHelper: loginNotAtlassian(login=, password=123eva456bel)
+2020-10-26 15:22:57 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianLogin(login=)
+2020-10-26 15:22:57 INFO  LogLog4j:41 - Enter login value to the login field
+2020-10-26 15:22:58 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianPassword(password=123eva456bel)
+2020-10-26 15:22:58 INFO  LogLog4j:41 - Enter password value to the password field
+2020-10-26 15:22:58 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:22:58 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:22:58 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:22:58 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:22:58 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:22:58 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:22:58 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:23:10 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:23:13 INFO  LogLog4j:15 - 
+2020-10-26 15:23:13 INFO  LogLog4j:16 - 
+2020-10-26 15:23:13 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:23:13 INFO  LogLog4j:18 -                    Test Case: loginNegativePasswordIncorrect
+2020-10-26 15:23:13 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:23:13 INFO  LogLog4j:41 - Parameter login - semenchuk833@gmail.com
+2020-10-26 15:23:13 INFO  LogLog4j:41 - Parameter password - 123eva456bel1
+2020-10-26 15:23:20 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:23:31 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:23:34 INFO  LogLog4j:15 - 
+2020-10-26 15:23:34 INFO  LogLog4j:16 - 
+2020-10-26 15:23:34 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:23:34 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest
+2020-10-26 15:23:34 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:23:34 INFO  LogLog4j:41 - Parameter login - 
+2020-10-26 15:23:34 INFO  LogLog4j:41 - Parameter password - hdgdgdg
+2020-10-26 15:23:34 INFO  LogLog4j:41 - Parameter errorMessage - Missing email
+2020-10-26 15:23:34 INFO  LogLog4j:41 - LoginPageHelper: loginNotAtlassian(login=, password=hdgdgdg)
+2020-10-26 15:23:34 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianLogin(login=)
+2020-10-26 15:23:34 INFO  LogLog4j:41 - Enter login value to the login field
+2020-10-26 15:23:34 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianPassword(password=hdgdgdg)
+2020-10-26 15:23:34 INFO  LogLog4j:41 - Enter password value to the password field
+2020-10-26 15:23:35 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:23:35 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:23:35 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:23:35 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:23:44 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:23:46 INFO  LogLog4j:15 - 
+2020-10-26 15:23:46 INFO  LogLog4j:16 - 
+2020-10-26 15:23:46 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:23:46 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest
+2020-10-26 15:23:46 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:23:46 INFO  LogLog4j:41 - Parameter login - gddfdffd
+2020-10-26 15:23:46 INFO  LogLog4j:41 - Parameter password - 123456
+2020-10-26 15:23:46 INFO  LogLog4j:41 - Parameter errorMessage - There isn't an account for this username
+2020-10-26 15:23:46 INFO  LogLog4j:41 - LoginPageHelper: loginNotAtlassian(login=gddfdffd, password=123456)
+2020-10-26 15:23:46 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianLogin(login=gddfdffd)
+2020-10-26 15:23:46 INFO  LogLog4j:41 - Enter login value to the login field
+2020-10-26 15:23:46 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianPassword(password=123456)
+2020-10-26 15:23:46 INFO  LogLog4j:41 - Enter password value to the password field
+2020-10-26 15:23:47 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:23:47 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:23:47 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:23:47 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:23:56 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:23:58 INFO  LogLog4j:15 - 
+2020-10-26 15:23:58 INFO  LogLog4j:16 - 
+2020-10-26 15:23:58 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:23:58 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest
+2020-10-26 15:23:58 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:23:58 INFO  LogLog4j:41 - Parameter login - gdfdd@gsfsf
+2020-10-26 15:23:58 INFO  LogLog4j:41 - Parameter password - 456455
+2020-10-26 15:23:58 INFO  LogLog4j:41 - Parameter errorMessage - There isn't an account for this email
+2020-10-26 15:23:58 INFO  LogLog4j:41 - LoginPageHelper: loginNotAtlassian(login=gdfdd@gsfsf, password=456455)
+2020-10-26 15:23:58 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianLogin(login=gdfdd@gsfsf)
+2020-10-26 15:23:58 INFO  LogLog4j:41 - Enter login value to the login field
+2020-10-26 15:23:59 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianPassword(password=456455)
+2020-10-26 15:23:59 INFO  LogLog4j:41 - Enter password value to the password field
+2020-10-26 15:23:59 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:23:59 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:23:59 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:24:00 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:24:09 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:24:12 INFO  LogLog4j:15 - 
+2020-10-26 15:24:12 INFO  LogLog4j:16 - 
+2020-10-26 15:24:12 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:24:12 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest2
+2020-10-26 15:24:12 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:24:12 INFO  LogLog4j:41 - Parameter login - demo-184311679@gmail.com
+2020-10-26 15:24:12 INFO  LogLog4j:41 - Parameter password - pass2059869597
+2020-10-26 15:24:12 INFO  LogLog4j:41 - LoginPageHelper: loginNotAtlassian(login=demo-184311679@gmail.com, password=pass2059869597)
+2020-10-26 15:24:12 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianLogin(login=demo-184311679@gmail.com)
+2020-10-26 15:24:12 INFO  LogLog4j:41 - Enter login value to the login field
+2020-10-26 15:24:12 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianPassword(password=pass2059869597)
+2020-10-26 15:24:12 INFO  LogLog4j:41 - Enter password value to the password field
+2020-10-26 15:24:12 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:24:12 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:24:12 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:24:13 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:24:22 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:24:24 INFO  LogLog4j:15 - 
+2020-10-26 15:24:24 INFO  LogLog4j:16 - 
+2020-10-26 15:24:24 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:24:24 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest2
+2020-10-26 15:24:24 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:24:24 INFO  LogLog4j:41 - Parameter login - demo-553302886@gmail.com
+2020-10-26 15:24:24 INFO  LogLog4j:41 - Parameter password - pass-1877088325
+2020-10-26 15:24:24 INFO  LogLog4j:41 - LoginPageHelper: loginNotAtlassian(login=demo-553302886@gmail.com, password=pass-1877088325)
+2020-10-26 15:24:24 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianLogin(login=demo-553302886@gmail.com)
+2020-10-26 15:24:24 INFO  LogLog4j:41 - Enter login value to the login field
+2020-10-26 15:24:24 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianPassword(password=pass-1877088325)
+2020-10-26 15:24:24 INFO  LogLog4j:41 - Enter password value to the password field
+2020-10-26 15:24:24 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:24:24 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:24:24 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:24:25 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:24:34 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:24:36 INFO  LogLog4j:15 - 
+2020-10-26 15:24:36 INFO  LogLog4j:16 - 
+2020-10-26 15:24:36 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:24:36 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest2
+2020-10-26 15:24:36 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:24:36 INFO  LogLog4j:41 - Parameter login - demo-534043760@gmail.com
+2020-10-26 15:24:36 INFO  LogLog4j:41 - Parameter password - pass829374102
+2020-10-26 15:24:36 INFO  LogLog4j:41 - LoginPageHelper: loginNotAtlassian(login=demo-534043760@gmail.com, password=pass829374102)
+2020-10-26 15:24:36 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianLogin(login=demo-534043760@gmail.com)
+2020-10-26 15:24:36 INFO  LogLog4j:41 - Enter login value to the login field
+2020-10-26 15:24:37 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianPassword(password=pass829374102)
+2020-10-26 15:24:37 INFO  LogLog4j:41 - Enter password value to the password field
+2020-10-26 15:24:37 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:24:37 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:24:37 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:24:38 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:24:46 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:24:49 INFO  LogLog4j:15 - 
+2020-10-26 15:24:49 INFO  LogLog4j:16 - 
+2020-10-26 15:24:49 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:24:49 INFO  LogLog4j:18 -                    Test Case: loginNegativeTest2
+2020-10-26 15:24:49 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:24:49 INFO  LogLog4j:41 - Parameter login - demo1794747890@gmail.com
+2020-10-26 15:24:49 INFO  LogLog4j:41 - Parameter password - pass-301166540
+2020-10-26 15:24:49 INFO  LogLog4j:41 - LoginPageHelper: loginNotAtlassian(login=demo1794747890@gmail.com, password=pass-301166540)
+2020-10-26 15:24:49 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianLogin(login=demo1794747890@gmail.com)
+2020-10-26 15:24:49 INFO  LogLog4j:41 - Enter login value to the login field
+2020-10-26 15:24:49 INFO  LogLog4j:41 - LoginPageHelper: enterNotAtlassianPassword(password=pass-301166540)
+2020-10-26 15:24:49 INFO  LogLog4j:41 - Enter password value to the password field
+2020-10-26 15:24:49 INFO  LogLog4j:41 - LoginPageHelper: pressLoginButton()
+2020-10-26 15:24:49 INFO  LogLog4j:41 - Wait 5 sec
+2020-10-26 15:24:49 INFO  LogLog4j:41 - Click on the login button
+2020-10-26 15:24:50 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:24:59 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:25:01 INFO  LogLog4j:15 - 
+2020-10-26 15:25:01 INFO  LogLog4j:16 - 
+2020-10-26 15:25:01 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:25:01 INFO  LogLog4j:18 -                    Test Case: loginPositive
+2020-10-26 15:25:01 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:25:01 INFO  LogLog4j:41 - Parameter login - semenchuk833@gmail.com
+2020-10-26 15:25:01 INFO  LogLog4j:41 - Parameter password - 123eva456bel
+2020-10-26 15:25:22 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:25:33 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:25:34 INFO  LogLog4j:15 - 
+2020-10-26 15:25:34 INFO  LogLog4j:16 - 
+2020-10-26 15:25:34 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:25:34 INFO  LogLog4j:18 -                    Test Case: loginPositive
+2020-10-26 15:25:34 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:25:34 INFO  LogLog4j:41 - Parameter login - semenchuk833@gmail.com
+2020-10-26 15:25:34 INFO  LogLog4j:41 - Parameter password - 123eva456bel
+2020-10-26 15:25:51 INFO  LogLog4j:41 - -----Test case was finished-----
+2020-10-26 15:26:00 INFO  LogLog4j:41 - LoginTest:@BeforeMethod initTests()
+2020-10-26 15:26:02 INFO  LogLog4j:15 - 
+2020-10-26 15:26:02 INFO  LogLog4j:16 - 
+2020-10-26 15:26:02 INFO  LogLog4j:17 - *******************************************************************
+2020-10-26 15:26:02 INFO  LogLog4j:18 -                    Test Case: loginPositive
+2020-10-26 15:26:02 INFO  LogLog4j:19 - *******************************************************************
+2020-10-26 15:26:02 INFO  LogLog4j:41 - Parameter login - nata@bk.ru
+2020-10-26 15:26:02 INFO  LogLog4j:41 - Parameter password - 123hgf

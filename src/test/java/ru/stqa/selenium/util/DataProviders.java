@@ -42,7 +42,21 @@ public class DataProviders {
         in.close();
         return userData.iterator();
     }
+    @DataProvider
+    public static Iterator<Object[]> dataProviderIncorrectLogin() throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(
+                DataProviders.class
+                        .getResourceAsStream("/loginIncorrect.data")));
 
+        List<Object[]> userData = new ArrayList<Object[]>();
+        String line = in.readLine();
+        while (line != null) {
+            userData.add(line.split(";"));
+            line = in.readLine();
+        }
+        in.close();
+        return userData.iterator();
+    }
     @DataProvider
     public static Iterator<Object[]> dataProviderSecond() {
         List<Object[]> data = new ArrayList();
@@ -76,6 +90,21 @@ public class DataProviders {
         return "pass" + (new Random()).nextInt();
     }
 
+    @DataProvider
+    public Iterator<Object[]> dataProviderRandomTitle() {
+        List<Object[]> data = new ArrayList();
+
+        for (int i = 0; i < 2; ++i) {
+            data.add(new Object[]{this.generateRandomTitle()});
+        }
+
+        return data.iterator();
+    }
+
+    private Object generateRandomTitle() {
+
+        return (new Random()).nextInt() ;
+    }
 
 }
 
