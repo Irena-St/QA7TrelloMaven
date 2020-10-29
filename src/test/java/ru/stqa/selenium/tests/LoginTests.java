@@ -44,7 +44,7 @@ HomePageHelper homePage;
         loginPage.loginNotAtlassian(login, password);
         Assert.assertEquals(loginPage.getErrorMessage(),errorMessage,
                 "The error message is not '" + errorMessage + "'");
-        log4j.info("-----Test case was finished-----");
+        log4j.endTestCase();
     }
     @Test(dataProviderClass = DataProviders.class,dataProvider = "dataProviderThird")
     public void loginNegativeTest2(String login,String password) {
@@ -54,8 +54,7 @@ HomePageHelper homePage;
         loginPage.loginNotAtlassian(login, password);
         Assert.assertEquals(loginPage.getErrorMessage(), "There isn't an account for this email",
                 "The error message is not '" + "There isn't an account for this email" +"'");
-        log4j.info("-----Test case was finished-----");
-
+        log4j.endTestCase2();
     }
     @Test
     public void loginNegativePasswordIncorrect() {
